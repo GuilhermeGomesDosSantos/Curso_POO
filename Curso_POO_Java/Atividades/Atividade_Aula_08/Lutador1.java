@@ -1,4 +1,4 @@
-public class Lutador {
+public class Lutador1 {
     private String nome;
     private String nacionalidade;
     private Integer idade;
@@ -9,7 +9,7 @@ public class Lutador {
     private Integer derrotas;
     private Integer empates;
 
-public Lutador(String nome, String nacionalidade, Integer idade, float altura, float peso, Integer vitoria, Integer derrota, Integer empate){
+public Lutador1(String nome, String nacionalidade, Integer idade, float altura, float peso, Integer vitoria, Integer derrota, Integer empate){
     this.nome = nome;
     this.nacionalidade = nacionalidade;
     this.idade = idade;

@@ -1,8 +1,8 @@
 import java.util.Random;
 
 public class Luta {
-    private Lutador desafiado;
-    private Lutador desafiante;
+    private Lutador1 desafiado;
+    private Lutador1 desafiante;
     private int rounds;
     private boolean aprovada;
     
@@ -47,11 +47,11 @@ public class Luta {
         }
     }
 
-    public Lutador getDesafiado() {
+    public Lutador1 getDesafiado() {
         return desafiado;
     }
 
-    public void marcarLuta(Lutador l1, Lutador l2){
+    public void marcarLuta(Lutador1 l1, Lutador1 l2){
         if (!l1.equals(l2) && l1.getCategoria().equals(l2.getCategoria())) {
             this.setAprovada(true);
             this.setDesafiante(l2);
@@ -65,15 +65,15 @@ public class Luta {
         }
     }
 
-    public void setDesafiado(Lutador desafiado) {
+    public void setDesafiado(Lutador1 desafiado) {
         this.desafiado = desafiado;
     }
 
-    public Lutador getDesafiante() {
+    public Lutador1 getDesafiante() {
         return desafiante;
     }
 
-    public void setDesafiante(Lutador desafiante) {
+    public void setDesafiante(Lutador1 desafiante) {
         this.desafiante = desafiante;
     }
 
