@@ -2,10 +2,10 @@ public class Gafanhoto extends Pessoa_Gafanhoto{
     private String login;
     private int totAssistido;
 
-    public Gafanhoto(String nome, int idade, String sexo, String login, int totAssistido) {
+    public Gafanhoto(String nome, int idade, String sexo, String login) {
         super(nome, idade, sexo);
         this.login = login;
-        this.totAssistido = totAssistido;
+        this.totAssistido = 0;
     }
 
     public void viuMaisUm(){
